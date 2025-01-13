@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb49485449675374d835f62df97171d8, type: 3}
+  m_Name: 03-EndScene
+  m_EditorClassIdentifier: 
+  art: {fileID: 21300000, guid: 54c4cfed551d0004c92c20a9eb746da9, type: 3}
+  background: {fileID: 7482667652216324306, guid: 984086ff4bd51dd4baa7af9a62a07c96, type: 3}
+  desc: '<color=#ff0000ff>Event End?: Tutorial?!</color>
+
+
+    after you completely
+    obliterate the boss, a message show up "congratulations you completed the tutorial!
+    are you ready for the real difficulty? "
+
+
+    what do you respond?'
+  choices:
+  - text: Bring it on modaf*cker!!(Unlock normal dificullty *NotImplementedYet*)
+    art: {fileID: 7482667652216324306, guid: 984086ff4bd51dd4baa7af9a62a07c96, type: 3}
+    background: {fileID: 7482667652216324306, guid: 984086ff4bd51dd4baa7af9a62a07c96, type: 3}
+    reward:
+    - {fileID: 11400000, guid: 90aa08912298c1049ade55332cdbd3f5, type: 2}
+    - {fileID: 11400000, guid: 13fcd28ed4e7ef84980efbe2eef1d423, type: 2}
+  - text: tutorial?!(Unlock normal dificullty and return main menu *NotImplementedYet*)
+    art: {fileID: 0}
+    background: {fileID: 7482667652216324306, guid: 984086ff4bd51dd4baa7af9a62a07c96, type: 3}
+    reward:
+    - {fileID: 11400000, guid: 90aa08912298c1049ade55332cdbd3f5, type: 2}
+    - {fileID: 11400000, guid: 13fcd28ed4e7ef84980efbe2eef1d423, type: 2}

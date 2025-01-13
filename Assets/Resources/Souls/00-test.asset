@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd82f51d18f1b724db140c3e58276545, type: 3}
+  m_Name: 00-test
+  m_EditorClassIdentifier: 
+  nome: Silver Dragon
+  desc: just a simple test.
+  art: {fileID: 21300000, guid: e0ca64e5d679b70438566fe2ac2904f8, type: 3}
+  CardEfeitos: 04000000
+  valueCard: 02000000
+  reverse: 00
+  RelicEfeitos: 00000000
+  valueRelic: 08000000
+  reverseRelic: 00
+  relicTrigger: 4
+  CardUtilityTrigger: 4
+  AtkName: Dragon Punch
+  SigntureMove:
+    cost: 0
+    value: 0f000000
+    efeito: 00000000
+    Intentions: 2
+    reverse: 00
+    EnemyTarget: 1
+    minions: []
+    buff: []
+  unidades: []
+  buff: []
+  Upgrade: {fileID: 11400000, guid: 57c5c5534ab7d7042b6e0fb42aa84340, type: 2}
+  Downgrade: {fileID: 0}

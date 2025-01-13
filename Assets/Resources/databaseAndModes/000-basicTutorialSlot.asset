@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0901f543ce58ee54e916a7e79f0587a5, type: 3}
+  m_Name: 000-basicTutorialSlot
+  m_EditorClassIdentifier: 
+  identification: tutorial save(read only)
+  items:
+  - {fileID: 11400000, guid: 6d43e9fa6b761214eaa712a4f6f220b7, type: 2}
+  souls:
+  - {fileID: 11400000, guid: 57c5c5534ab7d7042b6e0fb42aa84340, type: 2}
+  deck: {fileID: 11400000, guid: 1e49732487938c0448b1cf385d4999d0, type: 2}
+  player: {fileID: 11400000, guid: e730179681bec9d499a17df45c0d060b, type: 2}

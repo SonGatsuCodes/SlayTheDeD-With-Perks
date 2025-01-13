@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb49485449675374d835f62df97171d8, type: 3}
+  m_Name: 01-test
+  m_EditorClassIdentifier: 
+  art: {fileID: 21300000, guid: 7c1c7e27ff0785d4994696f3ddfc2c6e, type: 3}
+  background: {fileID: 7482667652216324306, guid: 984086ff4bd51dd4baa7af9a62a07c96, type: 3}
+  desc: '<color=#ff0000ff>Event 0: Goblin plan?</color>
+
+
+    After your first adventure
+    with mercenary group you drink at tavern where all staff consist of goblins they
+    work in a very diligent way.when you taste the food you feel a familiar aftertaste
+    of health, strength , speed , all kinda of potions you drinked while fighting
+    along the mercenaries......maybe they are using the potions to have enough food
+    for everyone?
+
+
+    Which food do you eat ?'
+  choices:
+  - text: Steak +2 strength in All Combats
+    art: {fileID: 21300000, guid: dc25938cbf37747478ee3e7011ab00e0, type: 3}
+    background: {fileID: 7482667652216324306, guid: 984086ff4bd51dd4baa7af9a62a07c96, type: 3}
+    reward:
+    - {fileID: 11400000, guid: 77144ee7d0c9d78489ef702c8fe81525, type: 2}
+    - {fileID: 11400000, guid: c7fea1fce3a544d4cb18df07d7017408, type: 2}
+    - {fileID: 11400000, guid: 5b1937a39a4b7b44fb0701d3d37b1cf6, type: 2}
+    prerequisits:
+    - requeriment: 1
+      not: 1
+      value: 3
+    - requeriment: 2
+      not: 0
+      value: 3
+  - text: No food at all, start a battle and get a Dragon Fang
+    art: {fileID: 21300000, guid: 1b43aff8c1ff84245b86ffe90b31cd3a, type: 3}
+    background: {fileID: 7482667652216324306, guid: 984086ff4bd51dd4baa7af9a62a07c96, type: 3}
+    reward:
+    - {fileID: 11400000, guid: 7fdbc03b01ce8fd4ca69771cc59b5594, type: 2}
+    - {fileID: 11400000, guid: d9efc9c374493294d8e272b99de12805, type: 2}
+    - {fileID: 11400000, guid: 3408d1ac3d6d9804e8c2e91e7c41f79d, type: 2}
+    prerequisits:
+    - requeriment: 1
+      not: 0
+      value: 3
+  - text: 'Salad +2 dexterity in All Combats  '
+    art: {fileID: 21300000, guid: 5e975968c9d70b047b959ffd8d5d80dd, type: 3}
+    background: {fileID: 7482667652216324306, guid: 984086ff4bd51dd4baa7af9a62a07c96, type: 3}
+    reward:
+    - {fileID: 11400000, guid: 82fb24028e0eacf4fa675cdfdae6561c, type: 2}
+    - {fileID: 11400000, guid: c7fea1fce3a544d4cb18df07d7017408, type: 2}
+    - {fileID: 11400000, guid: 5b1937a39a4b7b44fb0701d3d37b1cf6, type: 2}
+    prerequisits: []
+  - text: 'boiled potato +2 constitution in All Combats  '
+    art: {fileID: 21300000, guid: 10a1ef75a16afd74aaa7dd71c5e49c21, type: 3}
+    background: {fileID: 7482667652216324306, guid: 984086ff4bd51dd4baa7af9a62a07c96, type: 3}
+    reward:
+    - {fileID: 11400000, guid: b41cd193b36244f408243c8fde6f4f7c, type: 2}
+    - {fileID: 11400000, guid: c7fea1fce3a544d4cb18df07d7017408, type: 2}
+    - {fileID: 11400000, guid: 5b1937a39a4b7b44fb0701d3d37b1cf6, type: 2}
+    prerequisits: []
+  - text: 'Grilled fish +2 intelligence in All Combats  '
+    art: {fileID: 21300000, guid: 4be8b9c5e4392e24782a0ce5efda48dc, type: 3}
+    background: {fileID: 7482667652216324306, guid: 984086ff4bd51dd4baa7af9a62a07c96, type: 3}
+    reward:
+    - {fileID: 11400000, guid: 9a6f89bd557ed3e489034d9ec9a82be9, type: 2}
+    - {fileID: 11400000, guid: c7fea1fce3a544d4cb18df07d7017408, type: 2}
+    - {fileID: 11400000, guid: 5b1937a39a4b7b44fb0701d3d37b1cf6, type: 2}
+    prerequisits: []
+  - text: 'Soup +2 wisdom in All Combats  '
+    art: {fileID: 21300000, guid: 805c69cbb5e920e43ac15e673f8d892a, type: 3}
+    background: {fileID: 7482667652216324306, guid: 984086ff4bd51dd4baa7af9a62a07c96, type: 3}
+    reward:
+    - {fileID: 11400000, guid: fc9ea538ce46b8d46a6dd9113dae8d87, type: 2}
+    - {fileID: 11400000, guid: c7fea1fce3a544d4cb18df07d7017408, type: 2}
+    - {fileID: 11400000, guid: 5b1937a39a4b7b44fb0701d3d37b1cf6, type: 2}
+    prerequisits: []
+  - text: 'Caviar +2 charisma in All Combats  '
+    art: {fileID: 21300000, guid: 54c4cfed551d0004c92c20a9eb746da9, type: 3}
+    background: {fileID: 7482667652216324306, guid: 984086ff4bd51dd4baa7af9a62a07c96, type: 3}
+    reward:
+    - {fileID: 11400000, guid: 391cb79cec104724b95632c6a8859f2d, type: 2}
+    - {fileID: 11400000, guid: c7fea1fce3a544d4cb18df07d7017408, type: 2}
+    - {fileID: 11400000, guid: 5b1937a39a4b7b44fb0701d3d37b1cf6, type: 2}
+    prerequisits: []
+  - text: 'Bread +2 stamina in All Combats  '
+    art: {fileID: 21300000, guid: 54c4cfed551d0004c92c20a9eb746da9, type: 3}
+    background: {fileID: 7482667652216324306, guid: 984086ff4bd51dd4baa7af9a62a07c96, type: 3}
+    reward:
+    - {fileID: 11400000, guid: 178e8785e1fefa84195e77df5230971a, type: 2}
+    - {fileID: 11400000, guid: c7fea1fce3a544d4cb18df07d7017408, type: 2}
+    - {fileID: 11400000, guid: 5b1937a39a4b7b44fb0701d3d37b1cf6, type: 2}
+    prerequisits: []
+  - text: change deck to bqabarian
+    art: {fileID: 21300000, guid: 54c4cfed551d0004c92c20a9eb746da9, type: 3}
+    background: {fileID: 7482667652216324306, guid: 984086ff4bd51dd4baa7af9a62a07c96, type: 3}
+    reward:
+    - {fileID: 11400000, guid: a6586027662d36b4bb65f59aa6f60cd4, type: 2}
+    prerequisits: []

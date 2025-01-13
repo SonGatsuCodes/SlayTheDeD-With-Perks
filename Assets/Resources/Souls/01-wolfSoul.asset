@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd82f51d18f1b724db140c3e58276545, type: 3}
+  m_Name: 01-wolfSoul
+  m_EditorClassIdentifier: 
+  nome: wolf
+  desc: another test
+  art: {fileID: 21300000, guid: 83f5d4ce4d12a5c4890d6aaaf1fd6a5f, type: 3}
+  CardEfeitos: 02000000
+  valueCard: 06000000
+  reverse: 01
+  RelicEfeitos: 02000000
+  valueRelic: 09000000
+  reverseRelic: 01
+  relicTrigger: 6
+  CardUtilityTrigger: 6
+  AtkName: Sneak Wolf
+  SigntureMove:
+    cost: 0
+    value: 0c00000004000000
+    efeito: 0200000001000000
+    Intentions: 3
+    reverse: 0101
+    EnemyTarget: 0
+    minions: []
+    buff: []
+  unidades: []
+  buff: []
+  Upgrade: {fileID: 0}
+  Downgrade: {fileID: 0}

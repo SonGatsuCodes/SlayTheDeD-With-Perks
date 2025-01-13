@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb49485449675374d835f62df97171d8, type: 3}
+  m_Name: 02-Goblin Prison
+  m_EditorClassIdentifier: 
+  art: {fileID: 21300000, guid: db65ae8753e94484ca385579235f2b08, type: 3}
+  background: {fileID: 7482667652216324306, guid: 984086ff4bd51dd4baa7af9a62a07c96, type: 3}
+  desc: "<color=#ff0000ff>Event 2 jail on a boat:</color>\nwhen you start eating
+    the food you notice you getting stronger but a little bit sleepy, you wake up
+    in a huge cage (15m\xB2)and by the swing ,you are in the middle of the ocean.there
+    is other \"prisoners\" around ,looks like the goblins sold you as a slave to
+    pirates. and they throw all the potions of the group in the food, to mask the
+    sleep potion flavor or by pure \"luck\" . There is some wolf in the adjacent
+    cage  , very skinny, with low ear and crying as if asking you to pet him.\n\nwhat
+    would you do ?\n"
+  choices:
+  - text: 'Pet the wolf (lose 20 max HP and gain a wolf Ally) '
+    art: {fileID: 21300000, guid: 83a96942780ea814d9e561434afe9925, type: 3}
+    background: {fileID: 7482667652216324306, guid: 984086ff4bd51dd4baa7af9a62a07c96, type: 3}
+    reward:
+    - {fileID: 11400000, guid: 6d3ee4a61552a9c44be6256b2f8f5dce, type: 2}
+    - {fileID: 11400000, guid: c287b26956ede8446821cf7f2442a872, type: 2}
+    - {fileID: 11400000, guid: 53b905ad6ca443f4f8b2f8515036b6f5, type: 2}
+    prerequisits: []
+  - text: Kill the wolf(gain relic wolf pelt)
+    art: {fileID: 21300000, guid: 83a96942780ea814d9e561434afe9925, type: 3}
+    background: {fileID: 7482667652216324306, guid: 984086ff4bd51dd4baa7af9a62a07c96, type: 3}
+    reward:
+    - {fileID: 11400000, guid: 86341d33948396045b7476aa484d43fa, type: 2}
+    - {fileID: 11400000, guid: 53b905ad6ca443f4f8b2f8515036b6f5, type: 2}
+    prerequisits: []
+  - text: Ignore the wolf (gain 123 gold)
+    art: {fileID: 21300000, guid: 83a96942780ea814d9e561434afe9925, type: 3}
+    background: {fileID: 7482667652216324306, guid: 984086ff4bd51dd4baa7af9a62a07c96, type: 3}
+    reward:
+    - {fileID: 11400000, guid: d44eb950fd651b3448afe7312739f4eb, type: 2}
+    - {fileID: 11400000, guid: 53b905ad6ca443f4f8b2f8515036b6f5, type: 2}
+    prerequisits: []

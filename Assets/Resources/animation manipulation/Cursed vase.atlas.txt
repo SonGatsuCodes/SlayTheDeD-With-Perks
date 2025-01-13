@@ -1,0 +1,55 @@
+
+Cursed vase.png
+size: 1982,1499
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Cover
+  rotate: true
+  xy: 806, 126
+  size: 401, 533
+  orig: 401, 533
+  offset: 0, 0
+  index: -1
+EYE
+  rotate: true
+  xy: 1599, 824
+  size: 111, 72
+  orig: 111, 72
+  offset: 0, 0
+  index: -1
+Left Hand
+  rotate: true
+  xy: 2, 710
+  size: 787, 871
+  orig: 787, 871
+  offset: 0, 0
+  index: -1
+Vase
+  rotate: false
+  xy: 875, 529
+  size: 722, 968
+  orig: 722, 968
+  offset: 0, 0
+  index: -1
+Vase 1
+  rotate: false
+  xy: 1341, 160
+  size: 593, 367
+  orig: 593, 367
+  offset: 0, 0
+  index: -1
+Vase 2
+  rotate: true
+  xy: 1599, 937
+  size: 560, 381
+  orig: 560, 381
+  offset: 0, 0
+  index: -1
+right Hand
+  rotate: true
+  xy: 2, 2
+  size: 706, 802
+  orig: 706, 802
+  offset: 0, 0
+  index: -1

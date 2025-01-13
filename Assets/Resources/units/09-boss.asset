@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6483cef2731bda14ea4d56e901738ba5, type: 3}
+  m_Name: 09-boss
+  m_EditorClassIdentifier: 
+  nome: Great Leader
+  description: 
+  cod: 0
+  art: {fileID: 21300000, guid: 54c4cfed551d0004c92c20a9eb746da9, type: 3}
+  atks:
+  - cost: 0
+    value: 14000000
+    efeito: 00000000
+    Intentions: 2
+    reverse: 00
+    EnemyTarget: 1
+    minions: []
+    buff: []
+  aI: 0
+  target: 0
+  atributes:
+  - nome: 0
+    sprite: {fileID: 0}
+    text: {fileID: 0}
+    value: 100
+    mask: {fileID: 0}
+    work: 0
+  - nome: 1
+    sprite: {fileID: 0}
+    text: {fileID: 0}
+    value: 3
+    mask: {fileID: 0}
+    work: 0
+  - nome: 2
+    sprite: {fileID: 0}
+    text: {fileID: 0}
+    value: 0
+    mask: {fileID: 0}
+    work: 0
+  - nome: 3
+    sprite: {fileID: 0}
+    text: {fileID: 0}
+    value: 150
+    mask: {fileID: 0}
+    work: 0
+  - nome: 4
+    sprite: {fileID: 0}
+    text: {fileID: 0}
+    value: 3
+    mask: {fileID: 0}
+    work: 0
+  level: 4
+  AllRewards:
+  - {fileID: 11400000, guid: 2ec8f53baef63ab41b4dbbca9080247b, type: 2}
+  - {fileID: 11400000, guid: cf8c66fe8e830f049815401c9331f1ff, type: 2}
+  - {fileID: 11400000, guid: d62dcd564d2f08b4d83ae97dbae8ef33, type: 2}
+  - {fileID: 11400000, guid: 8527a86a987cc45498e74478028e7644, type: 2}
+  Defeat: []
+  minions:
+  - {fileID: 11400000, guid: b5e15ec79f6d28a419ac258799d578d2, type: 2}
+  - {fileID: 11400000, guid: 7f4faed9235ba084b9e07199180b1ce9, type: 2}
+  - {fileID: 11400000, guid: 1b3fa25c6f62dd742bbf64b8d81e2d74, type: 2}
+  Upgrade: {fileID: 0}
+  Downgrade: {fileID: 0}

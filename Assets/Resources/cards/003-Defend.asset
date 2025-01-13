@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e49e6dc521074bb4bbedec9623d18e43, type: 3}
+  m_Name: 003-Defend
+  m_EditorClassIdentifier: 
+  nome: Defend
+  code: 3
+  custo: 1
+  buy: 2
+  upgrade: {fileID: 11400000, guid: 32fd7ace8047bc343ac2b1f4812431c9, type: 2}
+  downgrade: {fileID: 11400000, guid: 8b8fa9aff19ec5640b389747b890113c, type: 2}
+  special: []
+  values: 07000000
+  efeitos: 02000000
+  reverse: 01
+  descricao: add [0] defense
+  art: {fileID: -151261763, guid: 837d582c930c4e04590b89ee22f78505, type: 3}
+  costArt: {fileID: 21300000, guid: 6f3d0bdbd3950d14eb5c6bf419fc0f86, type: 3}
+  backart: {fileID: 7482667652216324306, guid: 984086ff4bd51dd4baa7af9a62a07c96, type: 3}
+  tags: 
+  reusability: 0
+  type: 1
+  actvision: 0
+  minions: []
+  buff: []
+  anime: {fileID: 11400000, guid: 296b8187f667a074485717dbab756770, type: 2}
+  souls: []

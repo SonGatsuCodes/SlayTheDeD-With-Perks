@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b37dd5a65703451488b34d889af7f05e, type: 3}
+  m_Name: 17-Dummy
+  m_EditorClassIdentifier: 
+  r:
+    art: {fileID: -151261763, guid: 837d582c930c4e04590b89ee22f78505, type: 3}
+    description: who would thought.
+    type: 2
+    chance: 0
+    value: 5
+    many: 0
+    item: {fileID: 11400000, guid: 75b3e8a364f266a45bc5ca0412ac4d7b, type: 2}
+    card: {fileID: 0}
+    pool: []

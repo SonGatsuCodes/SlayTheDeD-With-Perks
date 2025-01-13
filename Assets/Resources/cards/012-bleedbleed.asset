@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e49e6dc521074bb4bbedec9623d18e43, type: 3}
+  m_Name: 012-bleedbleed
+  m_EditorClassIdentifier: 
+  nome: bleed until dry
+  code: 12
+  custo: 1
+  buy: 12
+  upgrade: {fileID: 0}
+  downgrade: {fileID: 0}
+  special: []
+  values: 02000000
+  efeitos: 14000000
+  reverse: 00
+  descricao: make them bleed [0] per atk.
+  art: {fileID: 21300000, guid: 36d28adcff3c7314599ebe0ce954297e, type: 3}
+  costArt: {fileID: 21300000, guid: 6f3d0bdbd3950d14eb5c6bf419fc0f86, type: 3}
+  backart: {fileID: 7482667652216324306, guid: 984086ff4bd51dd4baa7af9a62a07c96, type: 3}
+  tags: 
+  reusability: 0
+  type: 2
+  actvision: 0
+  minions: []
+  buff: []
+  anime: {fileID: 11400000, guid: 2e1a1db06e4118747982f7e7e6511062, type: 2}
+  souls: []

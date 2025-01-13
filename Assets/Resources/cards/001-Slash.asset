@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e49e6dc521074bb4bbedec9623d18e43, type: 3}
+  m_Name: 001-Slash
+  m_EditorClassIdentifier: 
+  nome: Slash
+  code: 1
+  custo: 1
+  buy: 5
+  upgrade: {fileID: 11400000, guid: 8b8fa9aff19ec5640b389747b890113c, type: 2}
+  downgrade: {fileID: 11400000, guid: 32fd7ace8047bc343ac2b1f4812431c9, type: 2}
+  special: []
+  values: 46000000
+  efeitos: 00000000
+  reverse: 00
+  descricao: deal [0] to enemy.
+  art: {fileID: -859148019, guid: e424ae559f1161c46a607662f6a0bf47, type: 3}
+  costArt: {fileID: 21300000, guid: 6f3d0bdbd3950d14eb5c6bf419fc0f86, type: 3}
+  backart: {fileID: 7482667652216324306, guid: 984086ff4bd51dd4baa7af9a62a07c96, type: 3}
+  tags: 
+  reusability: 0
+  type: 0
+  actvision: 0
+  minions: []
+  buff: []
+  anime: {fileID: 11400000, guid: 424a7bf685cf4f94d90fce7da90271cf, type: 2}
+  souls: []

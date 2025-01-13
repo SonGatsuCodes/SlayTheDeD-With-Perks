@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e49e6dc521074bb4bbedec9623d18e43, type: 3}
+  m_Name: 015-random Bullshit
+  m_EditorClassIdentifier: 
+  nome: 
+  code: 0
+  custo: 0
+  buy: 0
+  upgrade: {fileID: 0}
+  downgrade: {fileID: 0}
+  special: []
+  values: 010000000000000001000000
+  efeitos: 220000000300000021000000
+  reverse: 000000
+  descricao: use x([1]) cards from your complete deck.(can hit yourself) <ADHD> card.
+  art: {fileID: 21300000, guid: c5cf14e1fab282d4dbd3fbb73e9f6a02, type: 3}
+  costArt: {fileID: 21300000, guid: 6f3d0bdbd3950d14eb5c6bf419fc0f86, type: 3}
+  backart: {fileID: 7482667652216324306, guid: 984086ff4bd51dd4baa7af9a62a07c96, type: 3}
+  tags: 
+  reusability: 1
+  type: 2
+  actvision: 0
+  minions: []
+  buff: []
+  anime: {fileID: 0}
+  souls: []

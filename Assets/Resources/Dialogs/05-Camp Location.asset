@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb49485449675374d835f62df97171d8, type: 3}
+  m_Name: 05-Camp Location
+  m_EditorClassIdentifier: 
+  art: {fileID: 21300000, guid: 2ba679596f1241449970da87f1d3ceee, type: 3}
+  background: {fileID: 7482667652216324306, guid: 984086ff4bd51dd4baa7af9a62a07c96, type: 3}
+  desc: 'a area where you can eat ,train or rest while being safe.
+
+
+    but you
+    only have time for one... which?'
+  choices:
+  - text: rest(heal a bit of HP)
+    art: {fileID: 7482667652216324306, guid: 984086ff4bd51dd4baa7af9a62a07c96, type: 3}
+    background: {fileID: 7482667652216324306, guid: 984086ff4bd51dd4baa7af9a62a07c96, type: 3}
+    reward:
+    - {fileID: 11400000, guid: c9e24465f9765974197c962296bd52a9, type: 2}
+  - text: train (remove a card)
+    art: {fileID: 7482667652216324306, guid: 984086ff4bd51dd4baa7af9a62a07c96, type: 3}
+    background: {fileID: 7482667652216324306, guid: 984086ff4bd51dd4baa7af9a62a07c96, type: 3}
+    reward:
+    - {fileID: 11400000, guid: 09f1d01ff8845884f8659307f7f57b80, type: 2}
+  - text: eat (upgrade a card)
+    art: {fileID: 7482667652216324306, guid: 984086ff4bd51dd4baa7af9a62a07c96, type: 3}
+    background: {fileID: 7482667652216324306, guid: 984086ff4bd51dd4baa7af9a62a07c96, type: 3}
+    reward:
+    - {fileID: 11400000, guid: 025d50bba7614ec44a465f1ee867b73f, type: 2}

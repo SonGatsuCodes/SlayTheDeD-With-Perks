@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e49e6dc521074bb4bbedec9623d18e43, type: 3}
+  m_Name: 005-Wild Dog
+  m_EditorClassIdentifier: 
+  nome: Dog
+  code: 0
+  custo: 1
+  buy: 10
+  upgrade: {fileID: 11400000, guid: 0d2f16f5c303ac545ba669c9ff81da8c, type: 2}
+  downgrade: {fileID: 0}
+  special: []
+  values: 1400000001000000
+  efeitos: 0500000008000000
+  reverse: 0000
+  descricao: 'Take [0] unblockable damage to <summon> a bloody Hound n.[1]. '
+  art: {fileID: 21300000, guid: 83a96942780ea814d9e561434afe9925, type: 3}
+  costArt: {fileID: 21300000, guid: 6f3d0bdbd3950d14eb5c6bf419fc0f86, type: 3}
+  backart: {fileID: 7482667652216324306, guid: 984086ff4bd51dd4baa7af9a62a07c96, type: 3}
+  tags: 
+  reusability: 0
+  type: 2
+  actvision: 0
+  minions:
+  - {fileID: 11400000, guid: 42ddbbac761d38d4e97e10cd81e2a676, type: 2}
+  - {fileID: 11400000, guid: 42ddbbac761d38d4e97e10cd81e2a676, type: 2}
+  - {fileID: 11400000, guid: d07c5e273a66f1f4b8adfd5b79211ce6, type: 2}
+  - {fileID: 11400000, guid: d07c5e273a66f1f4b8adfd5b79211ce6, type: 2}
+  - {fileID: 11400000, guid: d07c5e273a66f1f4b8adfd5b79211ce6, type: 2}
+  - {fileID: 11400000, guid: d07c5e273a66f1f4b8adfd5b79211ce6, type: 2}
+  buff: []
+  anime: {fileID: 11400000, guid: 419722fb886a1ec44b8a3506a06693fd, type: 2}
+  souls: []

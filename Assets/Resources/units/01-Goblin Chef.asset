@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6483cef2731bda14ea4d56e901738ba5, type: 3}
+  m_Name: 01-Goblin Chef
+  m_EditorClassIdentifier: 
+  nome: Cooker
+  description: 
+  cod: 0
+  art: {fileID: 21300000, guid: fb0f188a6be919b4382429cc4120e88b, type: 3}
+  atks:
+  - cost: 0
+    value: 05000000
+    efeito: 00000000
+    Intentions: 2
+    reverse: 00
+    EnemyTarget: 1
+    minions: []
+    buff: []
+    anime: {fileID: 0}
+  - cost: 0
+    value: 05000000
+    efeito: 01000000
+    Intentions: 5
+    reverse: 01
+    EnemyTarget: 0
+    minions: []
+    buff: []
+    anime: {fileID: 11400000, guid: 5eed5f5fdc7078f41b7e1dc6c2eb8dcf, type: 2}
+  - cost: 0
+    value: 0300000003000000
+    efeito: 0000000000000000
+    Intentions: 2
+    reverse: 0000
+    EnemyTarget: 1
+    minions: []
+    buff: []
+    anime: {fileID: 0}
+  - cost: 0
+    value: 01000000
+    efeito: 08000000
+    Intentions: 6
+    reverse: 00
+    EnemyTarget: 0
+    minions:
+    - {fileID: 11400000, guid: 42ddbbac761d38d4e97e10cd81e2a676, type: 2}
+    - {fileID: 11400000, guid: 42ddbbac761d38d4e97e10cd81e2a676, type: 2}
+    - {fileID: 11400000, guid: 42ddbbac761d38d4e97e10cd81e2a676, type: 2}
+    buff: []
+    anime: {fileID: 11400000, guid: 419722fb886a1ec44b8a3506a06693fd, type: 2}
+  aI: 1
+  target: 0
+  atributes:
+  - nome: 0
+    sprite: {fileID: 0}
+    text: {fileID: 0}
+    value: 120
+    mask: {fileID: 0}
+    work: 0
+  - nome: 1
+    sprite: {fileID: 0}
+    text: {fileID: 0}
+    value: 3
+    mask: {fileID: 0}
+    work: 0
+  - nome: 2
+    sprite: {fileID: 0}
+    text: {fileID: 0}
+    value: 0
+    mask: {fileID: 0}
+    work: 0
+  - nome: 3
+    sprite: {fileID: 0}
+    text: {fileID: 0}
+    value: 120
+    mask: {fileID: 0}
+    work: 0
+  - nome: 4
+    sprite: {fileID: 0}
+    text: {fileID: 0}
+    value: 3
+    mask: {fileID: 0}
+    work: 0
+  level: 3
+  AllRewards:
+  - {fileID: 11400000, guid: 121e19ad290fb444980ca2a16e65aa18, type: 2}
+  - {fileID: 11400000, guid: 2ec8f53baef63ab41b4dbbca9080247b, type: 2}
+  - {fileID: 11400000, guid: 2ec8f53baef63ab41b4dbbca9080247b, type: 2}
+  - {fileID: 11400000, guid: 2ec8f53baef63ab41b4dbbca9080247b, type: 2}
+  - {fileID: 11400000, guid: 2ec8f53baef63ab41b4dbbca9080247b, type: 2}
+  - {fileID: 11400000, guid: 2ec8f53baef63ab41b4dbbca9080247b, type: 2}
+  - {fileID: 11400000, guid: 2ec8f53baef63ab41b4dbbca9080247b, type: 2}
+  - {fileID: 11400000, guid: 2ec8f53baef63ab41b4dbbca9080247b, type: 2}
+  Defeat:
+  - {fileID: 11400000, guid: c9e24465f9765974197c962296bd52a9, type: 2}
+  - {fileID: 11400000, guid: c7fea1fce3a544d4cb18df07d7017408, type: 2}
+  - {fileID: 11400000, guid: bcb557c6f2992e845b7f2b932530e4e5, type: 2}
+  minions:
+  - {fileID: 11400000, guid: 2089c96eb6f495046b80879d32059a4c, type: 2}
+  - {fileID: 11400000, guid: 2089c96eb6f495046b80879d32059a4c, type: 2}
+  - {fileID: 11400000, guid: 2089c96eb6f495046b80879d32059a4c, type: 2}
+  - {fileID: 11400000, guid: 2089c96eb6f495046b80879d32059a4c, type: 2}
+  Upgrade: {fileID: 0}
+  Downgrade: {fileID: 0}

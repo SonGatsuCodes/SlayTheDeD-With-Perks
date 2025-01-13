@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 519dd103492fc83428426db1d94d049b, type: 3}
+  m_Name: 03-Dragon Fang
+  m_EditorClassIdentifier: 
+  cod: 0
+  value: 08000000
+  times: 1
+  efeito: 00000000
+  target: 3
+  alvo: 0
+  activation: 2
+  reverse: 00
+  art: {fileID: 21300000, guid: 1b43aff8c1ff84245b86ffe90b31cd3a, type: 3}
+  gold: 15
+  minions: []
+  buff: []
+  Upgrade: {fileID: 0}
+  Downgrade: {fileID: 0}
+  anime: {fileID: 11400000, guid: 424a7bf685cf4f94d90fce7da90271cf, type: 2}
+  soul: {fileID: 0}

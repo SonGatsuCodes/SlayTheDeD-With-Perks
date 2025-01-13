@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb49485449675374d835f62df97171d8, type: 3}
+  m_Name: 00-Todo List
+  m_EditorClassIdentifier: 
+  art: {fileID: 0}
+  background: {fileID: 0}
+  desc: "Soul system (done)Add soul to card (add effects to card) done\nRelic upgrade
+    (transform into other relic) \nAdd soul to relic (change activation trigger)done\nCreateDropTable()
+    almost done ? \nCompanion Show done\nadd anime to relics done\nConvert Camp into
+    Dialog done\nReset Dungeon done\n\nminion and enemy use energy to atk?\nShow
+    Enemy actual_target \nPremade battle or realtime battle? \ne por ultimo mas n\xE3o
+    menos importante um animator control(isso aqui seria polir pra mim)\nadd hippo
+    art\nset graphic behind Paywall\nfishing on a old and spectral train ()  \nBarbarian
+    class\nRelic +1 rage for every rage card effect \nCard lesser rage: rage+2 exhaustion
+    +4\nstatus rage: +2 DMG +2 health -2defense : plus\n Status Unrage: -2 DMG -2
+    defense : minus\nCard axe cut : deal 12 DMG if rage +12\nFighter class\nRelic
+    +1 hit on every multihit card\nCard double hit: deal 5 DMG 2 times. Done \nRanger
+    class \nRelic add 2 poison every turn\nCard ranged arrow : ranged 6 DMG \nShielder
+    class\nRelic keep shield between turns\nCard shield: add 6 shield\nCard spike:
+    add 4 spikes exaust\nStatus \nPoison, strength, dexterity, constitution, intelligence,
+    wisdom, charisma , blood, burn, frozen, sleep, rage, Unrage, exaustion,block,
+    penetrate,Regen, speed, manabonus,healthbonus, minion,leader,pet,drawbonus,spike,multihit,lifesteal,\n\nSouls:\n\nDragon(?,playcard),wolf(bleed
+    4, endturn),horse(+2 max HP,playdefesecard),"
+  choices:
+  - text: 
+    art: {fileID: 0}
+    background: {fileID: 0}
+    reward: []
+    prerequisits: []

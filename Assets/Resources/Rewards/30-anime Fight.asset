@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b37dd5a65703451488b34d889af7f05e, type: 3}
+  m_Name: 30-anime Fight
+  m_EditorClassIdentifier: 
+  r:
+    art: {fileID: 21300000, guid: 9b8bbf422e6c0e448ad92d1954dd964e, type: 3}
+    description: bring it on i can take as many as you send
+    type: 8
+    chance: 0
+    value: 0
+    many: 0
+    item: {fileID: 0}
+    card: {fileID: 0}
+    pool: []
+    DD: {fileID: 0}
+    enemy: {fileID: 11400000, guid: 1b3fa25c6f62dd742bbf64b8d81e2d74, type: 2}
+    soul: {fileID: 0}
+    Skipable: 0

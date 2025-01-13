@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e49e6dc521074bb4bbedec9623d18e43, type: 3}
+  m_Name: 008-Big Heart
+  m_EditorClassIdentifier: 
+  nome: Big Heart-8
+  code: 0
+  custo: 1
+  buy: 20
+  upgrade: {fileID: 11400000, guid: 20eacb3113976dd459d3e78c50ee1141, type: 2}
+  downgrade: {fileID: 0}
+  special:
+  - cost: 0
+    e: 14
+    v: 2
+    reverse: 0
+    Intention_art: 0
+    _____self________summon____minions____boss:
+      x: 1
+      y: 1
+      z: 1
+      w: 1
+    allMinions: []
+  - cost: 0
+    e: 12
+    v: 2
+    reverse: 0
+    Intention_art: 0
+    _____self________summon____minions____boss:
+      x: 1
+      y: 1
+      z: 1
+      w: 1
+    allMinions: []
+  - cost: 0
+    e: 13
+    v: 2
+    reverse: 0
+    Intention_art: 0
+    _____self________summon____minions____boss:
+      x: 1
+      y: 1
+      z: 1
+      w: 1
+    allMinions: []
+  values: 02000000
+  efeitos: 0e000000
+  reverse: 00
+  descricao: improve constitution by [0]
+  art: {fileID: 21300000, guid: 10a1ef75a16afd74aaa7dd71c5e49c21, type: 3}
+  costArt: {fileID: 21300000, guid: 6f3d0bdbd3950d14eb5c6bf419fc0f86, type: 3}
+  backart: {fileID: 7482667652216324306, guid: 984086ff4bd51dd4baa7af9a62a07c96, type: 3}
+  tags: 
+  reusability: 1
+  type: 2
+  actvision: 0
+  minions: []
+  buff: []
+  anime: {fileID: 11400000, guid: 7939f0b7d84c41a488b89728bc6e07db, type: 2}
+  souls: []
