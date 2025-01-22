@@ -1704,7 +1704,7 @@ public class Manager : MonoBehaviour
                         {
                             //print("no fuking card to upgrade");
                         }
-                        else{c.code.upgradable = true;}//delete after test
+                        else{c.code.upgradable = true;}//add glow animation for cards? so easy identify whigh one can upgrade
                         if(j>0){
                         c.code.enabledDrag=false;
                         upgradesRemaining=reversed;

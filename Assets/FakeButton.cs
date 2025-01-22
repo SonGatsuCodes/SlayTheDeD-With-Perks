@@ -226,6 +226,9 @@ public class FakeButton : MonoBehaviour
             case classes.Quit:
                 code.Exit();
                 break;
+                case classes.Draw:
+                code.Draw(value);
+                break;
             default: break;
         }
     }
@@ -285,6 +288,6 @@ public enum classes{noClass,EndTurn,DeckShower,Next,Previous,Relic,ChangePreview
 RelicNext,RelicPrevious,Rewards,GetReward,RewardListNext,RewardListBack,CallShop,BuyRelic,SellReward,RemoveCard,
 CloseCardSelection,CloseCardSelection2,UpgradeCard,DialogShow,DialogNext,DialogBack,DialogSolver,TestMinion,NextCom,
 NextSub,BackCom,BackSub,ShowCompanions,ShowSouls,nextSoul,BackSoul,SoulSolver,SoulAdder,nextSoulRelic,BackSoulRelic,
-SoulAdderRelic,SoulAdderAtk,Surrender,Quit,NewGame}
+SoulAdderRelic,SoulAdderAtk,Surrender,Quit,NewGame,Draw}
 
 public enum AdderTarget{noTarget,Relic,Card,Atk}
